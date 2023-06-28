@@ -61,7 +61,7 @@ Finally, add a "sortable" structure to your AngularJS HTML-template, which refer
 Happy AngularJS sorting!
 
 # Legacy support
-As this repository takes up the mantle on [Alexandru Badiu's](andu@ctrlz.ro) repository: **[html.sortable](https://github.com/voidberg/html5sortable)** (which now redirects to **HTML5Sortable**, but can still be installed via Bower), it is also possible to use a separately defined $scope-variable for the `sortupdate` callback and have this specified via an optional `html5-sortable-callback` attribute on the "sortable" structure, e.g.:
+As this repository takes up the mantle on [Alexandru Badiu's](https://github.com/voidberg) repository: **[html.sortable](https://github.com/voidberg/html5sortable)** (which now redirects to **HTML5Sortable**, but can still be installed via Bower), it is also possible to use a separately defined $scope-variable for the `sortupdate` callback and have this specified via an optional `html5-sortable-callback` attribute on the "sortable" structure, e.g.:
 
 AngularJS Controller:
 ```
